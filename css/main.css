@@ -10,15 +10,6 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-h1{
-  text-align: center;
-  margin: auto;
-}
-
-h4{
-  text-align: center;
-  font-style: italic;
-}
 
 #picture{
   display: block;
@@ -28,21 +19,24 @@ h4{
 }
 
 .mytable{
-  float: top;
   display: inline-block;
+  margin-left: 100px;
+  background-color: darkgreen;
+  text-align: left;
+}
+
+#head{
+  background-color: white;
   text-align: center;
-  width: 250px;
-  border: 2px solid black;
-  margin-top: 50px;
-  margin-left: 50px;
 }
 
 .hobby{
   display: inline-block;
   width: 400px;
   border: 2px solid black;
-  margin-left: 550px;
+  margin-left: 950px;
 }
+
 
 html {
   color: #222;
